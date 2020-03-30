@@ -1,0 +1,48 @@
+{
+    "list":[{
+        "time":"June 2016",
+        "place":"Present",
+        "title":"Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.",
+        "headDiagram":"123",
+        "pics":[{
+            "name":"pic1",
+            "link":"link"
+        }],
+        "videos":[{
+            "name":"video1",
+            "link":"link"
+        }]
+    },{
+        "time":"June 2017",
+        "place":"Present",
+        "title":"Working alongside the designer team implementing the designs, als.",
+        "headDiagram":"",
+        "pics":[{
+            "name":"pic1",
+            "link":"link"
+        },{
+            "name":"pic2",
+            "link":"link"
+        }],
+        "videos":[]
+    },{
+        "time":"June 2018",
+        "place":"Present",
+        "title":"Working alongside ts.",
+        "headDiagram":"",
+        "pics":[],
+        "videos":[{
+            "name":"video1",
+            "link":"link"
+        },{
+            "name":"video2",
+            "link":"link"
+        },{
+            "name":"video1",
+            "link":"link"
+        },{
+            "name":"video2",
+            "link":"link"
+        }]
+    }]
+}

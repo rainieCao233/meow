@@ -1,0 +1,41 @@
+{
+  "name": "meow",
+  "version": "1.0.0",
+  "description": "meow's timeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack-dev-server --config  webpack.develop.config.js --hot --host 127.0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainieCao233/meow.git"
+  },
+  "author": "ycao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rainieCao233/meow/issues"
+  },
+  "homepage": "https://github.com/rainieCao233/meow#readme",
+  "dependencies": {
+    "webpack": "^4.3.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.1",
+    "sass-loader": "^6.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^3.0.3",
+    "html-webpack-plugin": "^4.0.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^1.15.0",
+    "webpack-stream": "^3.2.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "sass-loader": "^6.0.7"
+  }
+}

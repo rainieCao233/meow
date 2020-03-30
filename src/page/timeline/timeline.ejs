@@ -1,0 +1,32 @@
+<section id="cd-timeline" class="cd-container">
+    <% data.list.forEach(function(item){%>
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture"></div>
+    
+            <div class="cd-timeline-content">
+                <% if(item.headDiagram){ %>
+                    <img src="<%=item.headDiagram %>" alt="" class="timeline-content-head-diagram">
+                <% }%>
+                <div class="timeline-content-info">
+                    <span class="timeline-content-info-title">
+                    <i class="fa fa-certificate" aria-hidden="true"></i>
+                    #<%=item.place %>
+                    </span>
+                    <span class="timeline-content-info-date">
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    #<%=item.time %>
+                    </span>
+                </div>
+                <p><%=item.title %></p>
+                <ul class="content-skills">
+                    <% item.pics.forEach(function(pic){%>
+                        <li><%=pic.name %></li>
+                    <% }) %>
+                    <% item.videos.forEach(function(video){%>
+                        <li><%=video.name %></li>
+                    <% }) %>
+                </ul>
+            </div>
+        </div>
+    <% }) %>
+</section>
